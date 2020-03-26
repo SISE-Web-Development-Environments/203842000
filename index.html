@@ -2,9 +2,17 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" />
+<meta charset="utf-8">
+<meta name="veiwport" content="width=device-width">
+<meta name="keywords" content="first website">
+<meta name="author" content="Yzhar Chernov">
+<title>Jimi Hendrix | Welcome</title>
+<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 <div id="menu">
+
+
 <li><a href="#about">About Me</a></li>
 <li><a href="#photos">My Photos</a></li>
 <li><a href="#playlist">My Playlist</a></li>
@@ -12,119 +20,71 @@
 <li><a href="#qrcoder">QR code</a></li>
 <li><a href="#spa">Q&A</a></li>
 <li><a href="#contact">Contact Me</a></li>
+<img class="logo-img" src="./img/Ylogo.png" width="100" height="100"  ALIGN=CENTER>
+
 </div>
-		  
+
 <section id="about" class="section">
 <br/>
 <br/>
+
+<h1>about Jimi Hendrix</h1>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
+
+  <p>James Marshall "Jimi" Hendrix (born Johnny Allen Hendrix; November 27, 1942 – September 18, 1970)
+     was an American rock guitarist, singer, and songwriter. His mainstream career lasted only four years,
+      but he is widely regarded as one of the most influential guitarists in history and one of the most celebrated
+       musicians of the 20th century. The Rock and Roll Hall of Fame describes him as "the greatest instrumentalist
+        in the history of rock music."</p>
+
 </section>
 
 <section id="photos" class="section">
 <br/>
+
+  <h2>Photos</h2>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
+<div class="row">
+    <div class="column">
+      <img src="./img/purple.jpg"  style="width:100%" height="50%">
+    </div>
+
+    <div class="column">
+      <img src="./img/logo.jpg"  style="width:100%" height="50%" >
+    </div>
+    <div class="column">
+      <img src="./img/smoke.jpg"  style="width:100%" height="50%" >
+    </div>
+    <div class="column">
+      <img src="./img/stage.jpg"  style="width:100%" height="50%">
+    </div>
+  </div>
+
 </section>
 
-<section id="playlist" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
-</section>
+<section id="playlist" class="containerV">
 
+<h2>playlist</h2>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MwIymq0iTsw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <section id="like" class="section">
 <br/>
+<h2>give me a like</h2>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
-</section>
+<div class="fb-like" data-href="https://www.facebook.com/JimiHendrix/" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
 
+</section>
+</section>
 <section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
+
+<h2>scan my code</h2>
+<div >
+  <br/>
+  <br/>
+
+<img class="center" src="./img/QRC.png" style="width:30%" height="30%">
+</div>
 <br/>
 <br/>
 </section>
@@ -132,47 +92,62 @@ scan my code
 <section id="spa" class="section">
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
-</section>
+<h2>ans</h2>
 
-<section id="contact" class="section">
+</section>
+<h2>contact me</h2>
+<br>
+<section id="contact" autocomplete="on" class="section">
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
+
+<!-- <form id="contact-form" method="post" autocomplete="on"  action="MAILTO:yzhar@post.bgu.ac.il" enctype="text/plain">
+  <p><input type = "email" id = "email"    placeholder = "Email:" /></p>
+  <!-- <textarea  name="Email"rows="2" cols="20" autocomplete="on"  placeholder="Email:" required></textarea> -->
+<!--
+    <textarea  name="Name"rows="2" cols="20" autocomplete="on"  placeholder="Name:" required></textarea>
+<p>
+  <textarea name="body" Message="" placeholder="Your massege..."  rows="4" cols="43"></textarea>
+</p>
+<input type="submit" value="SEND MASSEGE">
+  <input  type="reset"  value="reset">
+</form> -->
+
+
+<form method = "post" autocomplete = "on">
+        <p><label>
+           <input type = "text" id = "firstName"
+              placeholder = "name" />
+           </label></p>
+        <p><label>
+           <input type = "email" id = "email"
+              placeholder = "name@domain.com" />
+           </label></p>
+           <p>
+           <textarea  name="Name"rows="6" cols="36" autocomplete="on"  placeholder="Message..." required></textarea>
+         </p>
+
+
+        <p>
+          <label >emoji:
+            <select  name="mood">
+
+             <option> 😄</option>
+            <option> 😄</option>
+            <option> 😄</option>
+            <option> 😄</option>
+            <option> 😄</option>
+            <option> 😄</option>
+            <option> 😄</option>
+            <option> 😄</option>
+            <option> 😄</option>
+            <option> 😄</option>
+            <option> 😄</option>
+            <option> 😄</option>
+           </datalist>
+        </label></p>
+        <p><input type = "submit" value = "Submit" />
+           <input type = "reset" value = "Clear" /></p>
+     </form>
 </section>
 
 
@@ -180,7 +155,7 @@ contact me
 $(function(){
   $("#nav a").click(function(e){
     e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
+    $('html,body').scrollTo(this.hash,this.hash);
   });
 });
 </script>
@@ -189,5 +164,10 @@ $(function(){
     $('#menu').toggle($(this).scrollTop()>1000)
  });​
  </script>
+ <div id="fb-root"></div>
+ <script async defer crossorigin="anonymous" src="https://connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v6.0"></script>
+
+
 </body>
 </html>
+© 2020 GitHub, Inc.

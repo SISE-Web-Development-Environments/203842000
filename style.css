@@ -1,7 +1,146 @@
+
 #menu
 {
 	position: fixed;
 	width: 100%;
 	height: 35px;
-	background: white;
+	background: grey;
+}
+body{
+font: 17px/1.5 Arial, Helvetica,sans-serif;
+padding: 0;
+margin:0;
+margin-left: 10px;
+ background:linear gradient(to right,gray,#00AAFF);
+
+}
+
+.
+.containerP{
+height: 350px;
+text-align: center;
+}
+.sectoin{
+
+}
+#qrcoder{
+margin-left: 400px;
+margin-right: auto;
+width: 50%;
+display: block;
+}
+.containerV{
+
+margin-left: auto;
+text-align: center;
+margin-right: auto;
+display: block;
+
+}
+header{
+
+  color: #bbbbb1;
+  padding-top: 20px;
+  min-height: 40px;
+  border-bottom:  10px ;
+}
+header a{
+  display: block;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+
+}
+header ul{
+
+  margin: 0;
+  padding: 0;
+
+}
+header li{
+
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 25%;
+  padding: 5px;
+}
+.center {
+  padding-left: 265px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+h1{
+  text-align: center;
+  font-size: 35px;
+
+}
+h2{
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+li{
+  float: left;
+  list-style-type: none;
+  background-color: grey;
+}
+li a:hover {
+  background-color: black;
+}
+.logo-img{
+    float: right;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+qrc{
+    margin: 10px 15px 15px 10px;
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+form{
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+.form-control{
+  width: 600px;
+
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: #black;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+input{
+
+  height: 45px;
+}
+form .submit{
+  background: white;
 }
