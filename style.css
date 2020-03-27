@@ -4,14 +4,17 @@
 	position: fixed;
 	width: 100%;
 	height: 35px;
-	background: grey;
+
 }
+
+
 body{
 font: 17px/1.5 Arial, Helvetica,sans-serif;
 padding: 0;
 margin:0;
 margin-left: 10px;
  background:grey;
+ background-image: linear-gradient(to bottom right, purple , orange);
 
 }
 
@@ -73,7 +76,7 @@ header li{
   padding: 5px;
 }
 .center {
-  padding-left: 265px;
+
   margin-left: auto;
   margin-right: auto;
 
@@ -91,7 +94,8 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: grey;
+	background-image: linear-gradient(to bottom right, grey , black);
+
 }
 
 li a {
@@ -103,12 +107,14 @@ li a {
 }
 
 li{
+
   float: left;
   list-style-type: none;
-  background-color: grey;
+
+
 }
 li a:hover {
-  background-color: black;
+  background-image: linear-gradient(orange,purple,orange);
 }
 .logo-img{
     float: right;

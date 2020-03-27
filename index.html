@@ -23,7 +23,7 @@
 <li><a href="#spa">Q&A</a></li>
 <li><a href="#contact">Contact Me</a></li>
 <div>
-<img class="logo-img" src="Ylogo.PNG" width="100" height="100"  ALIGN=CENTER>
+<img class="logo-img" src="orangeLogo.PNG" width="100" height="100"  ALIGN=CENTER>
 </div>
 </div>
 
@@ -32,9 +32,7 @@
 <br/>
 
 <h1>about Jimi Hendrix</h1>
-<br/>
-<br/>
-
+<br>
   <p>James Marshall "Jimi" Hendrix (born Johnny Allen Hendrix; November 27, 1942 – September 18, 1970)
      was an American rock guitarist, singer, and songwriter. His mainstream career lasted only four years,
       but he is widely regarded as one of the most influential guitarists in history and one of the most celebrated
@@ -50,17 +48,17 @@
 <br/>
 <div class="row">
     <div class="column">
-      <img src="purple.jpg"  style="width:100%" height="50%">
+      <img src="purple.jpg"  style="width:100%" height="85%">
     </div>
 
     <div class="column">
-      <img src="logo.jpg"  style="width:100%" height="50%" >
+      <img src="logo.jpg"  style="width:100%" height="85%" >
     </div>
     <div class="column">
-      <img src="smoke.jpg"  style="width:100%" height="50%" >
+      <img src="smoke.jpg"  style="width:100%" height="85%" >
     </div>
     <div class="column">
-      <img src="stage.jpg"  style="width:100%" height="50%">
+      <img src="stage.jpg"  style="width:100%" height="85%">
     </div>
   </div>
 
@@ -70,7 +68,7 @@
 
 <h2>playlist</h2>
 <br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MwIymq0iTsw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLMKA5kzkfqk2GEImRCIqGqWmQvKYygUhG" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <section id="like" class="section">
 <br/>
 <h2>give me a like</h2>
@@ -80,13 +78,12 @@
 </section>
 </section>
 <section id="qrcoder" class="section">
-
+<br>
+<br>
 <h2>scan my code</h2>
 <div >
-  <br/>
-  <br/>
 
-<img class="center" src="newQR.PNG" style="width:30%" height="30%">
+<img class="containerV" src="newQR.PNG" style="width:30%" height="30%">
 </div>
 <br/>
 <br/>
@@ -99,9 +96,7 @@
 
 </section>
 <h2>contact me</h2>
-<br>
 <section id="contact" autocomplete="on" class="section">
-<br/>
 
 <!-- <form id="contact-form" method="post" autocomplete="on"  action="MAILTO:yzhar@post.bgu.ac.il" enctype="text/plain">
   <p><input type = "email" id = "email"    placeholder = "Email:" /></p>
@@ -116,20 +111,19 @@
 </form> -->
 
 
-<form method = "post" autocomplete = "on">
+<form method = "post" autocomplete = "on" action="MAILTO:yzhar@post.bgu.ac.il" enctype="text/plain">
+      <div class="containerV">
         <p><label>
-           <input type = "text" id = "firstName"
-              placeholder = "name" />
+           <input  type = "text" id = "firstName"
+              placeholder = "your name..." />
            </label></p>
         <p><label>
            <input type = "email" id = "email"
-              placeholder = "name@domain.com" />
+              placeholder = "your Email..." />
            </label></p>
            <p>
            <textarea  name="Name"rows="6" cols="36" autocomplete="on"  placeholder="Message..." required></textarea>
          </p>
-
-
         <p>
           <label >emoji:
             <select  name="mood">
@@ -148,8 +142,9 @@
             <option> 😋	</option>
            </datalist>
         </label></p>
-        <p><input type = "submit" value = "Submit" />
-           <input type = "reset" value = "Clear" /></p>
+        <p><input type = "submit" value = "SUBMIT" />
+           <input type = "reset" value = "CLEAR" /></p>
+      </div>
      </form>
 </section>
 
@@ -169,7 +164,6 @@ $(function(){
  </script>
  <div id="fb-root"></div>
  <script async defer crossorigin="anonymous" src="https://sise-web-development-environments.github.io/assignment1-Yzhar/"></script>
-
 
 </body>
 </html>
