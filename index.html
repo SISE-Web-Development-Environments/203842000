@@ -138,47 +138,31 @@ in web1  we need to have a specific URL of a site that has the information about
 </form> -->
 
 
-<form method = "post" autocomplete = "on" action="MAILTO:yzhar@post.bgu.ac.il" enctype="text/plain">
+<form name="mailto" method = "get" autocomplete = "on" action="mailto:yzhar@post.bgu.ac.il" enctype="text/plain">
       <div class="containerV">
         <p><label>
            <input  type = "text" id = "firstName"
               placeholder = "your name..." />
            </label></p>
         <p><label>
-           <input type = "email" id = "email"
+           <input name="Email" type = "email" id = "email"
               placeholder = "your Email..." />
            </label></p>
            <p>
-           <textarea  name="Name"rows="6" cols="36" autocomplete="on"  placeholder="Message..." required></textarea>
+           <textarea  name="body"rows="6" cols="36" autocomplete="on"  placeholder="Message..." required></textarea>
          </p>
 
-          <!-- <label >emoji:
-            <select  name="mood">
 
-             <option> 😄</option>
-            <option> 😁</option>
-            <option> 😂</option>
-            <option> 😃</option>
-            <option> 😄	</option>
-            <option> 😅</option>
-            <option> 😆</option>
-            <option> 😇</option>
-            <option> 😈	</option>
-            <option> 😉</option>
-            <option> 😊	</option>
-            <option> 😋	</option>
-           </datalist>
-        </label> -->
-        <input style="border: transparent; background-color: transparent" type="button" onclick="pushToMessage('😋')" name="imog" value="😋">
-        <input style="border: transparent; background-color: transparent" type="button" onclick="pushToMessage('😃')" name="imog" value="😃">
-        <input style="border: transparent; background-color: transparent" type="button" onclick="pushToMessage('😁')" name="imog" value="😁">
-        <input style="border: transparent; background-color: transparent" type="button" onclick="pushToMessage('😂')" name="imog" value="😂">
-        <input style="border: transparent; background-color: transparent" type="button" onclick="pushToMessage('😅')" name="imog" value="😅">
-        <input style="border: transparent; background-color: transparent" type="button" onclick="pushToMessage('😆')" name="imog" value="😆">
-        <input style="border: transparent; background-color: transparent" type="button" onclick="pushToMessage('😇')" name="imog" value="😇">
-        <input style="border: transparent; background-color: transparent" type="button" onclick="pushToMessage('😈')" name="imog" value="😈">
-        <input style="border: transparent; background-color: transparent" type="button" onclick="pushToMessage('😋')" name="imog" value="😋">
-        <input style="border: transparent; background-color: transparent" type="button" onclick="pushToMessage('😉')" name="imog" value="😉">
+        <input style=" background-color: transparent" type="button" onclick="pushToMessage('😋')" name="imog" value="😋">
+        <input style=" background-color: transparent" type="button" onclick="pushToMessage('😃')" name="imog" value="😃">
+        <input style=" background-color: transparent" type="button" onclick="pushToMessage('😁')" name="imog" value="😁">
+        <input style=" background-color: transparent" type="button" onclick="pushToMessage('😂')" name="imog" value="😂">
+        <input style=" background-color: transparent" type="button" onclick="pushToMessage('😅')" name="imog" value="😅">
+        <input style=" background-color: transparent" type="button" onclick="pushToMessage('😆')" name="imog" value="😆">
+        <input style=" background-color: transparent" type="button" onclick="pushToMessage('😇')" name="imog" value="😇">
+        <input style=" background-color: transparent" type="button" onclick="pushToMessage('😈')" name="imog" value="😈">
+        <input style=" background-color: transparent" type="button" onclick="pushToMessage('😋')" name="imog" value="😋">
+        <input style=" background-color: transparent" type="button" onclick="pushToMessage('😉')" name="imog" value="😉">
 
         <!-- <input style=" background-color: transparent" type="button" onclick="pushToMessage('😃')" name="imj" value="😃">
         <input style=" background-color: transparent" type="button" onclick="pushToMessage('😋')" name="imj" value="😋">
@@ -219,12 +203,11 @@ $(function(){
  <script async defer crossorigin="anonymous" src="https://sise-web-development-environments.github.io/assignment1-Yzhar/"></script>
 
  <script type="text/javascript">
-   function push(str){
+   function pushToMessage(str){
      document.mailto.body.value +=str;
    }
    </script>
-   <script type="text/javascript">
-   </script>
+
 
 </body>
 
