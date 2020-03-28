@@ -169,17 +169,18 @@ in web1  we need to have a specific URL of a site that has the information about
             <option> 😋	</option>
            </datalist>
         </label> -->
-        <input name="emoji" type="radio">😋;</input>
-        <input name="emoji" type="radio">😁;</input>
-        <input name="emoji" type="radio">😂;</input>
-        <input name="emoji" type="radio">😃;</input>
-        <input name="emoji" type="radio">😅;</input>
-        <input name="emoji" type="radio">😆;</input>
-        <input name="emoji" type="radio">😇;</input>
-        <input name="emoji" type="radio" checked>😈;</input>
-        <input name="emoji" type="radio">😉;</input>
-        <input name="emoji" type="radio">😊;</input>
-        <input name="emoji" type="radio">😋;</input>
+        <input style=" background-color: transparent" type="button" onclick="pushToMessage('😃')" name="imj" value="😃">
+        <input style=" background-color: transparent" type="button" onclick="pushToMessage('😋')" name="imj" value="😋">
+        <input style=" background-color: transparent" type="button" onclick="pushToMessage('😁')" name="imj" value="😁">
+        <input style=" background-color: transparent" type="button" onclick="pushToMessage('😂')" name="imj" value="😂">
+        <input style=" background-color: transparent" type="button" onclick="pushToMessage('😅')" name="imj" value="😅">
+        <input style=" background-color: transparent" type="button" onclick="pushToMessage('😆')" name="imj" value="😆">
+        <input style=" background-color: transparent" type="button" onclick="pushToMessage('😋')" name="imj" value="😋">
+        <input style=" background-color: transparent" type="button" onclick="pushToMessage('😇')" name="imj" value="😇">
+        <input style=" background-color: transparent" type="button" onclick="pushToMessage('😈')" name="imj" value="😈">
+        <input style=" background-color: transparent" type="button" onclick="pushToMessage('😋')" name="imj" value="😋">
+        <input style=" background-color: transparent" type="button" onclick="pushToMessage('😉')" name="imj" value="😉">
+
 
       </p>
         <p><input type = "submit" value = "SUBMIT" />
@@ -189,7 +190,11 @@ in web1  we need to have a specific URL of a site that has the information about
      </form>
 </section>
 
-
+<script type="text/javascript">
+  function pushToMessage(str){
+    document.mailto.body.value +=str;
+  }
+  </script>
 <script type="text/javascript">
 $(function(){
   $("#nav a").click(function(e){
