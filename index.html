@@ -151,7 +151,7 @@ in web1  we need to have a specific URL of a site that has the information about
            <p>
            <textarea  name="Name"rows="6" cols="36" autocomplete="on"  placeholder="Message..." required></textarea>
          </p>
-        <p>
+
           <!-- <label >emoji:
             <select  name="mood">
 
@@ -193,7 +193,7 @@ in web1  we need to have a specific URL of a site that has the information about
         <input style=" background-color: transparent" type="button" onclick="pushToMessage('😉')" name="imj" value="😉">
  -->
 
-      </p>
+
         <p><input type = "submit" value = "SUBMIT" />
            <input type = "reset" value = "CLEAR" /></p>
 
@@ -201,11 +201,7 @@ in web1  we need to have a specific URL of a site that has the information about
      </form>
 </section>
 
-<script type="text/javascript">
-  function push(str){
-    document.mailto.body.value +=str;
-  }
-  </script>
+
 <script type="text/javascript">
 $(function(){
   $("#nav a").click(function(e){
@@ -221,8 +217,16 @@ $(function(){
  </script>
  <div id="fb-root"></div>
  <script async defer crossorigin="anonymous" src="https://sise-web-development-environments.github.io/assignment1-Yzhar/"></script>
+
  <script type="text/javascript">
-</script>
+   function push(str){
+     document.mailto.body.value +=str;
+   }
+   </script>
+   <script type="text/javascript">
+   </script>
+
 </body>
+
 </html>
 © 2020 GitHub, Inc.
